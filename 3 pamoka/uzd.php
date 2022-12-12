@@ -180,7 +180,7 @@ bool(true)
 HINT: atkreipkite dėmesį į ką pavirsta skaičius 0
 */
 
-for ($i = -5; $i <= 5; $i++) {
+for ($i = -5; $i <= 8; $i++) {
     echo $i.PHP_EOL;
     var_dump((bool) $i);
 }
